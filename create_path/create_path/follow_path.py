@@ -22,7 +22,7 @@ class AMRNav(Node):
             10,
         )
         
-        self.csv_filename = '/home/thanawat/amr_ws/src/create_path/csv/default_path_odom.csv'
+        self.csv_filename = 'path/default_path_odom.csv'
         self.num = int(num)
  
         self.estimate = None 
