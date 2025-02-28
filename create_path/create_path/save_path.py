@@ -11,8 +11,8 @@ import subprocess
 class RobotPoseLogger(Node):
     def __init__(self):
         super().__init__('robot_pose_odom')
-        self.path_csv = '/home/thanawat/amr_ws/src/create_path/csv/default_path_odom.csv'
-        self.map_dir = '/home/thanawat/amr_ws/src/create_path/map'
+        self.path_csv = 'path/default_path_odom.csv'
+        self.map_dir = 'path'
         self.first_pose_saved = False
         self.last_saved_x = None
         self.last_saved_y = None
