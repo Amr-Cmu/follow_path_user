@@ -15,7 +15,7 @@ class AMRNav(Node):
         self.navigator = BasicNavigator()
         self.status_publisher = self.create_publisher(String, 'nomap_follow_path_status', 10)
         
-        self.csv_filename = '/home/thanawat/amr_ws/src/create_path/csv/default_path_odom.csv'
+        self.csv_filename = 'path/default_path_odom.csv'
         self.num = int(num)
  
         self.estimate = None 
